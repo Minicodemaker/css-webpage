@@ -1,0 +1,276 @@
+.flex-container{
+     display:flex;
+     flex-direction: row;
+     flex:1;
+     gap:5px;
+     justify-content: flex-start;
+     background-color:rgb(28, 28, 29);
+     padding:10px;
+     margin:0px;
+     list-style: none;
+     flex-wrap:wrap;
+
+}
+
+.flex-item{
+
+    background-color: #d1b1f1;
+    margin: 5px;
+    padding:10px;
+    border-radius: 8px;
+
+}
+.text{
+    color:#ffffff;
+    font-size:20px;
+
+}
+
+.text:hover{
+    color:black;
+    background-color: rgb(245, 155, 87) ;
+    font-size: 24px;
+    text-decoration: underline;
+
+}
+
+.c1{
+    width: 100%;
+    height:600px;
+  
+}
+
+.c1 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+h1{
+    position: absolute;
+    top:300px;
+    left:590px;
+    font-size: 80px;
+    color: rgb(11, 11, 11);
+}
+
+.c2-flex{
+    display: flex;
+    flex-wrap: wrap;       /* allows items to wrap if screen is small */
+    gap: 0;                /* no extra space between items */
+    width: 100%;           /* full width */
+    margin: 0;
+    padding: 0;
+    height:900px;
+    
+}
+
+.c2-flexitem {
+    flex: 0 0 50%;            
+    box-sizing: border-box; 
+   
+}
+
+.c2-flexitem img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.spacing{
+    font-size: 22px;
+    padding:200px 60px 100px 60px;
+    justify-content: center;
+    text-align:center;
+    align-items:center;
+    color: #f7f7ec;
+}
+  
+
+
+
+    
+footer{
+    text-align: center;
+    font-size: 18px;
+    font-family: cambria;
+    color: white;
+    background-color: #1a1919;
+    margin-bottom: 0px;
+    padding:8px;
+}
+
+.section-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:1px;
+    margin:10px;
+    border-radius:15px;
+    background-image: url(kid.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    justify-content:center;
+    align-items: center;
+
+
+}    
+
+.col{
+    flex:0 0 40%
+}
+
+
+.section-3item{
+    color: #0b0b0b;
+    background-color: rgb(239, 247, 223);
+    margin:20px;
+    padding:40px;
+    height:250px;
+    width:250;
+    border-radius: 15px;
+    border: green solid 8px;
+    outline: black solid 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.section-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+    margin:10px;
+    padding:40px;
+    border-radius:15px;
+    justify-content: center;
+    align-items: center;
+}    
+
+.section-1item{
+    flex:0 0 25%;
+    color: #0b0b0b;
+    background-color: rgb(100, 173, 228);
+    padding:20px;
+    height:500px;
+    border-radius: 15px;
+  
+}
+
+.section-1item img{
+    width: 300px;         
+    height: 300px;
+    margin: 35px;
+}
+
+.section-2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin:10px;
+    padding:10px;
+}
+
+.section-2items{
+    flex:0 0 30%;
+    color :black;
+    margin:10px;
+    padding:30px;   
+    height:200px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family:Cambria;
+    font-size: 18px;
+}
+
+
+.parent{
+    display:  flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #eeedd1;
+    gap:10px;
+    margin:20px;
+    border-radius: 15px;
+    padding:80px;
+}
+
+.p-items{
+    flex:1;
+}
+
+.ruler{
+    border-left: black solid 1px;   
+}
+
+.b1{
+    border-radius:20px;
+    color:green;
+    border: black solid 1px;
+    font-size:20px;
+    padding:10px;
+    font-weight: bold;
+    background-color: #eeedd1; 
+
+}
+
+.b1:hover{
+    background-color: green;
+    color: #f5f4e8;
+    font-size:23px ;
+}
+
+.p1{
+    border-top:black solid 1px;
+    font-size: 30px;
+    color: black;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: end;
+}
+
+
+
+.section-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px 10px 10px 10px;
+    padding:20px;
+    border-radius: 15px;
+    gap:10px;
+    background-color: green;
+}
+
+.section-4items{
+    flex: 0 0 40%;
+    color: rgb(242, 241, 234);
+    font-size: 30px;
+    margin-top: 80px;
+    height:300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* sticker */
+.section-4 img{
+    position: absolute;
+    left:1500px;
+    top:3400px;
+    height:180px;
+    width: 150px;
+}
